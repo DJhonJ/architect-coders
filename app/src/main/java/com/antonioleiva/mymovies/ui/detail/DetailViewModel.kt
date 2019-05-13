@@ -47,7 +47,7 @@ class DetailViewModel(private val movieId: Int, private val moviesRepository: Mo
         movie.value?.run {
             _title.value = title
             _overview.value = overview
-            _url.value = "https://image.tmdb.org/t/p/w780$backdropPath"
+            _url.value = backdropPath
             _favorite.value = favorite
         }
     }
