@@ -8,7 +8,6 @@ import com.antonioleiva.mymovies.databinding.ViewMovieBinding
 import com.antonioleiva.mymovies.model.database.Movie
 import com.antonioleiva.mymovies.ui.common.basicDiffUtil
 import com.antonioleiva.mymovies.ui.common.inflate
-import com.antonioleiva.mymovies.ui.common.loadUrl
 
 class MoviesAdapter(private val listener: (Movie) -> Unit) :
     RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
